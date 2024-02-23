@@ -18,5 +18,19 @@ namespace BusinessLogicLayer1
             }
             return -1;
         }
+
+        public static List<EntityOgrenci> BllListele()
+        {
+            return DataAccessLayerOgrenci.OgrenciListesi();
+        }
+
+        public static bool OgrenciSilBll(int p)
+        {
+            if (p!= null)
+            {
+                return DataAccessLayerOgrenci.OgrenciSil(p);
+            }
+            return false;
+        }
     }
 }

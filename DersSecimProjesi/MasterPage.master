@@ -25,10 +25,10 @@
           <a class="nav-link" href="javascript:void(0)">Anasayfa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Öğrenciler</a>
+          <a class="nav-link" href="OgrenciListesi.aspx">Öğrenciler</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Öğretmenler</a>
+          <a class="nav-link" href="Default.aspx">Yeni Kayıt</a>
         </li>
           <li class="nav-item">
           <a class="nav-link" href="javascript:void(0)">Dersler</a>
@@ -43,7 +43,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+        <button class="btn btn-primary" type="button">Ara</button>
       </form>
     </div>
   </div>
