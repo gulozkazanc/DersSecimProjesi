@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Baglanti.cs" />
     <Compile Include="DataAccessLayerOgrenci.cs" />
+    <Compile Include="DataAccsessLayerDers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

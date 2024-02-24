@@ -26,11 +26,29 @@ namespace BusinessLogicLayer1
 
         public static bool OgrenciSilBll(int p)
         {
-            if (p!= null)
+            if (p>=0)
             {
                 return DataAccessLayerOgrenci.OgrenciSil(p);
             }
             return false;
         }
+
+
+        public static List<EntityOgrenci> BllDetay(int p)
+        {
+            return DataAccessLayerOgrenci.OgrenciDetay(p);
+        }
+
+        public static bool OgrenciGuncelleBll(EntityOgrenci p)
+        {
+            if (p.Ad != null && p.Ad!="" && p.Soyad != null && p.Numara != null && p.Sifre != null && p.Fotograf != null && p.Id>0)
+            {
+                return DataAccessLayerOgrenci.OgrenciGuncelle(p);
+            }
+            return false;
+           
+        }
+
+
     }
 }

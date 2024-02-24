@@ -31,7 +31,7 @@
           <a class="nav-link" href="Default.aspx">Yeni Kayıt</a>
         </li>
           <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Dersler</a>
+          <a class="nav-link" href="Dersler.aspx">Dersler</a>
         </li>
           <li class="nav-item">
           <a class="nav-link" href="javascript:void(0)">Kontenjanlar</a>
