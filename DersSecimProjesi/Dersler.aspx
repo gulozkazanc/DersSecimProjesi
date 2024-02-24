@@ -14,12 +14,12 @@
 
     <div>
         <asp:Label ID="Label2" runat="server" Text="Öğrenci ID"></asp:Label>
-        <asp:TextBox runat="server" CssClass="form-control"></asp:TextBox>
+        <asp:TextBox runat="server" CssClass="form-control" ID="TextBox1"></asp:TextBox>
     </div>
 
        <br />
 
-       <asp:Button runat="server" Text="Ders Talep Oluştur" CssClass="btn btn-warning"/>
+       <asp:Button ID="Button1" runat="server" Text="Ders Talep Oluştur" CssClass="btn btn-warning" OnClick="Button1_Click"/>
 
 
    </form>

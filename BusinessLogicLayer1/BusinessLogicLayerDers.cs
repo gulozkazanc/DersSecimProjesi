@@ -15,5 +15,13 @@ namespace BusinessLogicLayer1
             return DataAccsessLayerDers.DersListesi();
         }
 
+        public static int TalepEkleBll(EntityBasvuruForm p)
+        {
+            if(p.Basogrid!=null && p.Basdersid!=null)
+            {
+                return DataAccsessLayerDers.TalepEkle(p);
+            }
+            return -1;
+        }
     }
 }
